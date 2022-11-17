@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200;300;400;500;600;700&display=swap');
+* {
+    font-family: 'Readex Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: #A3AB78;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 150px;
+}
+
+.logo {
+    text-decoration: none;
+    color: #10454F;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+
+.navi a {
+    text-decoration: none;
+    color: #10454F;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+}
+
+.navi a:hover {
+    color: #caff00;
+}
+
+section {
+    padding: 100px 150px;
+}
+
+.main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(back.jpg) no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+}
+
+.main h2 {
+    color: #10454F;
+    font-size: 1.4em;
+    font-weight: 500;
+}
+
+.main h2 span {
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 1.8em;
+    font-weight: 600;
+    color: #10454F;
+}
+
+.main h3 {
+    color: #10454F;
+    font-size: 1.2em;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+.main-btn {
+    color: #10454F;
+    background-color: #A3AB78;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    transition: 0.5s ease;
+}
+
+.main-btn:hover {
+    background-color: #BDE038;
+    transform: scale(1.1);
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    color: #10454F;
+    font-size: 2.2em;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+}
+
+.card {
+    background-color: white;
+    width: 21.25em;
+    box-shadow: 0 5px 30px rgba(163 171 120 /20%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.5s ease;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.icon {
+    color: #10454F;
+    font-size: 5em;
+    text-align: center;
+}
+
+.info {
+    text-align: center;
+}
+
+.info h3 {
+    color: #10454F;
+    font-size: 1.2em;
+    font-weight: 600;
+    margin: 10px;
+}
